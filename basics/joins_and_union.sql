@@ -5,6 +5,8 @@ JOINS
 - Left Join
 - Right Join
 - Full OUter Join.
+- self join
+- union
 
 */
 
