@@ -1,9 +1,15 @@
 CREATE TABLE customers (
-    customer_id INT PRIMARY KEY,
+    customer_id INT AUTO_INCREMENT PRIMARY KEY, -- 
     customer_name VARCHAR(100),
     city VARCHAR(50),
     country VARCHAR(50)
 );
+
+INSERT INTO customers (customer_name, city, country) VALUES
+( 'Alice Johnson', 'New York', 'USA'),
+('Bob Smith', 'Los Angeles', 'USA'),
+('Charlie Brown', 'London', 'UK');
+
 
 INSERT INTO customers (customer_id, customer_name, city, country) VALUES
 (1, 'Alice Johnson', 'New York', 'USA'),
